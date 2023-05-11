@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="223dp"
+        android:layout_height="301dp"
+        android:background="#CD5C5C" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="223dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21dp"
+        android:background="#6B8E23" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="188dp"
+        android:layout_height="169dp"
+        android:layout_alignRight="@id/view"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:background="#008080">
+
+    </View>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="190dp"
+        android:layout_height="219dp"
+        android:layout_alignBottom="@id/view3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="-219dp"
+        android:background="#8A2BE2">
+
+    </View>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="188dp"
+        android:layout_height="194dp"
+        android:layout_alignTop="@id/seekbar2"
+        android:layout_alignRight="@id/view2"
+        android:layout_alignBottom="@id/view4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-198dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-193dp"
+        android:background="#D2691E">
+
+    </View>
+
+    <SeekBar
+        android:id="@+id/seekbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@id/view2"
+        ></SeekBar>
+
+
+
+</RelativeLayout>
